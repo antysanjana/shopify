@@ -14,10 +14,7 @@ function HeroSection() {
             Get high sales with the help of our Shopify Experts, E-Commerce
             Consultants & Skilled Web Developers
           </p>
-          <Link
-            href={"/"}
-            className="green-link py-4 px-6 text-center rounded-md"
-          >
+          <Link href={"/"} className="green-link">
             Get a free quote
           </Link>
         </div>

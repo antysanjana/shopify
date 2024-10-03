@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 function AboutUsSection() {
   return (
@@ -11,7 +12,15 @@ function AboutUsSection() {
         <div className="flex gap-8">
           <div className="h-[80px] w-[2px] bg-[#69ba2c]"></div>
           <div>
-            <h1 className="text-[20px] font-bold">Shopify experts</h1>
+            <div className="flex gap-3 items-center">
+              <Image
+                src={"/shopify-logo.webp"}
+                alt="shopify logo"
+                width={30}
+                height={30}
+              ></Image>
+              <h1 className="text-[20px] font-bold">Shopify experts</h1>
+            </div>
             <p>Shopify Experts since 2017</p>
           </div>
         </div>
