@@ -35,3 +35,62 @@ body {
     text-wrap: balance;
   }
 }
+
+.container {
+  width: 100%
+}
+
+@media (min-width: 640px) {
+  .container {
+      max-width:640px
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+      max-width:768px
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+      max-width:1024px
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+      max-width:1280px
+  }
+}
+
+@media (min-width: 1536px) {
+  .container {
+      max-width:1536px
+  }
+}
+
+.nav-link {
+  font-size: 1.125rem; 
+  font-weight: 600; 
+  transition: all 0.3s ease; 
+  transform: translateZ(0); 
+}
+
+.nav-link:hover {
+  text-decoration: underline; 
+}
+
+.mainlogo {
+  height: 6.3rem
+}
+
+@media (max-width: 640px) {
+  .footerlogo {
+      height:5.5rem
+  }
+
+  .mainlogo {
+      height: 4.5rem
+  }
+}
