@@ -7,5 +7,5 @@
 .yarn/install-state.gz
 
 # next.js
-/.next/
+.next
 /out/
